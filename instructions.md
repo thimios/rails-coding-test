@@ -24,22 +24,21 @@ We have a (very) basic e-commerce platform, with the four models (Product, Order
 
 Please implement the following  stories.
 
-- ### Customers
-All order belongs to a Customer.
+1. An order belongs to a Customer.
 
-- ### Categories
-A product belongs to a Category.
+2. A product belongs to a Category.
 
-- ### Multi-tenant app
-Any customer browse to an account page and is prompted with a login page. They enter their credentials (login and password) and are presented with exactly their orders (sorted by status).
+3. Any customer browse to an account page and is prompted with a login page. They enter their credentials (login and password) and are presented with exactly their orders (sorted by status).
 
-- ### Analytics
+4. Analytics
 We need a weekly summary page displaying:
-  - Breakdown by product of sold quantities (based on orders.created_at)
-  - Breakdown by items of sold quantities (based on orders.created_at)
-  - Add asynchronous navigation to change the displayed week
-  - Display order uniq customer count by number of orders (see example 1)
-  - (*On a separate view*) Display repartition between reccuring and new customers for each month (see example 2)
+  1. Breakdown by product of sold quantities (based on orders.created_at)
+  2. Breakdown by items of sold quantities (based on orders.created_at)
+  3. Add asynchronous navigation to change the displayed week
+  4. Display order uniq customer count by number of orders (example 1)
+  5. (*On a separate view*) Display repartition between reccuring and new customers for each month (example 2)
+
+5. Extend ruby Hash Class to use your own implementation of the [Hash#dig](http://ruby-doc.org/core-2.3.0_preview1/Hash.html#method-i-dig) method without ruby 2.3. Make it available in the Rails app.
 
 ***Example 1***
 
