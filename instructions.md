@@ -43,18 +43,18 @@ We need a weekly summary page displaying:
 
 ***Example 1***
 
-|Orders|Customers|Percentage|
-|--|--|--|
-|1 order|70|70%|
-|2 orders|20|20%|
-|3 orders|5|5%|
+Orders|Customers|Percentage
+--|--|--
+1 order|70|70%
+2 orders|20|20%
+3 orders|5|5%
 
 ***Example 2***
 
-|Month|Reccuring Customer|New customer|Total
-|--|--|--|
-|June 2016|0|800|800
-|July 2016|15|290|305
+Month|Reccuring Customer|New customer|Total
+--|--|--|--
+June 2016|0|800|800
+July 2016|15|290|305
 
 
 # Questions
