@@ -30,15 +30,17 @@ Please implement the following  stories.
 
 3. Any customer browse to an account page and is prompted with a login page. They enter their credentials (login and password) and are presented with exactly their orders (sorted by status).
 
-4. Analytics
-We need a weekly summary page displaying:
+4. Extend ruby Hash Class to use your own implementation of the [Hash#dig](http://ruby-doc.org/core-2.3.0_preview1/Hash.html#method-i-dig) method without ruby 2.3. Make it available in the Rails app.
+
+5. Analytics
+
+  *We need a weekly summary page displaying:*
   1. Breakdown by product of sold quantities (based on orders.created_at)
   2. Breakdown by items of sold quantities (based on orders.created_at)
   3. Add asynchronous navigation to change the displayed week
   4. Display order uniq customer count by number of orders (example 1)
   5. (*On a separate view*) Display repartition between reccuring and new customers for each month (example 2)
 
-5. Extend ruby Hash Class to use your own implementation of the [Hash#dig](http://ruby-doc.org/core-2.3.0_preview1/Hash.html#method-i-dig) method without ruby 2.3. Make it available in the Rails app.
 
 ***Example 1***
 
